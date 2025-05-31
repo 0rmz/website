@@ -1,0 +1,43 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:rgb(84, 158, 255);
+
+}
+button{
+    color: rgb(0, 183, 255);
+    background-color: #ffffff;
+    border: none;
+    position: absolute;
+    
+    padding: 20px 50px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 25px;
+
+    transition: background-color .2s ease;
+
+}
+
+
+button:hover{
+    
+    background-color: rgb(221, 221, 221);
+    
+}
+
+button:active{
+    background-color: rgb(182, 182, 182);
+}
+
+.button-no{
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 42%;
+}
+
+.button-yes{
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 58%;
+}
